@@ -118,13 +118,17 @@ python export_data_for_reviewers.py
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Logistic Regression** | **Original** | **66.67 ± 5.13** | **47.75 ± 3.64** | **68.84 ± 5.60** | **74.41 ± 6.27** | 0.00 ± 0.00 |
 | **Linear SVM** | Original | 64.10 ± 7.25 | 46.18 ± 4.95 | 65.75 ± 7.53 | 72.79 ± 7.71 | 0.00 ± 0.00 |
-| **Multinomial NB** | Original | 61.03 ± 4.10 | 42.54 ± 3.05 | 57.27 ± 4.69 | 70.36 ± 4.48 | 0.00 ± 0.00 |
-| **Logistic Regression** | Masked | 63.59 ± 4.10 | 45.20 ± 2.96 | 63.54 ± 5.42 | 72.06 ± 5.77 | 0.00 ± 0.00 |
 | **Linear SVM** | Masked | 63.59 ± 5.23 | 45.67 ± 3.54 | 65.18 ± 5.39 | 71.83 ± 5.75 | 0.00 ± 0.00 |
+| **Logistic Regression** | Masked | 63.59 ± 4.10 | 45.20 ± 2.96 | 63.54 ± 5.42 | 72.06 ± 5.77 | 0.00 ± 0.00 |
+| **Multinomial NB** | Original | 61.03 ± 4.10 | 42.54 ± 3.05 | 57.27 ± 4.69 | 70.36 ± 4.48 | 0.00 ± 0.00 |
+| **Multinomial NB** | Masked | 58.46 ± 4.41 | 39.88 ± 3.83 | 50.70 ± 8.03 | 68.94 ± 4.40 | 0.00 ± 0.00 |
 | **VADER Baseline** | Diagnostic | 54.36 ± 7.50 | 44.85 ± 7.55 | 56.39 ± 10.72 | 63.44 ± 5.35 | 14.74 ± 13.31 |
 | **Majority Baseline** | Minimal Ref. | 46.15 ± 0.00 | 21.05 ± 0.00 | 0.00 ± 0.00 | 63.16 ± 0.00 | 0.00 ± 0.00 |
+| *Sensitivity Analysis:* | | | | | | |
+| **Linear SVM (Grouped)** | **StratifiedGroupKFold** | **65.26 ± 5.37** | **47.13 ± 3.18** | **67.07 ± 6.75** | **74.32 ± 5.40** | 0.00 ± 0.00 |
+| **Logistic Regression (Grouped)** | **StratifiedGroupKFold** | **62.75 ± 6.95** | **44.62 ± 5.42** | **61.76 ± 11.48** | **72.09 ± 6.53** | 0.00 ± 0.00 |
 
-*Note: Model hyperparameters configured in `src/f5_f7_experiment.py`: Logistic Regression ($C = 1.0$, `solver='lbfgs'`, `class_weight='balanced'`), LinearSVC ($C = 1.0$, `class_weight='balanced'`), MultinomialNB ($\alpha = 1.0$), with a fixed random seed of 42.*
+*Note: Model hyperparameters configured in `src/f5_f7_experiment.py`: Logistic Regression ($C = 1.0$, `solver='lbfgs'`, `class_weight='balanced'`), LinearSVC ($C = 1.0$, `class_weight='balanced'`), MultinomialNB ($\alpha = 1.0$), with a fixed random seed of 42. StratifiedGroupKFold is grouped on the 185 unique source paragraphs.*
 
 ---
 
