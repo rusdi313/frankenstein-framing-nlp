@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Microsoft Office and PDF files (Journal Manuscripts & Notes)
+*.docx
+*.doc
+*.pdf
+~$*.docx
+~$*.doc
+~$*.xlsx
+*_backup.docx
+
+# Manuscript-specific folders & reviewer notes
+Revisi/
+template jurnal/
+figures/reviewer_notes/
+
+# Manuscript generator scripts
+build_*.py
+update_draft_in_place.py
+apply_manuscript_revisions.py
+generate_response_docx.py
+PRD — Pipeline Klasifikasi Representasi Makhluk dalam Frankenstein.md

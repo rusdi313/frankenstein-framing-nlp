@@ -1,0 +1,19 @@
+creature
+monster
+daemon
+demon
+fiend
+wretch
+being
+devil
+ogre
+spectre
+vile insect
+insect
+creation
+enemy
+shape
+figure
+abortion
+calamity
+catastrophe

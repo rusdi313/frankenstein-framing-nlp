@@ -1,0 +1,91 @@
+Variant,Class,Rank,Feature,Coefficient
+Original,Ambivalen,1,misery,0.44
+Original,Ambivalen,2,from,0.4107
+Original,Ambivalen,3,alone,0.4049
+Original,Ambivalen,4,still,0.4043
+Original,Ambivalen,5,behold,0.4024
+Original,Ambivalen,6,love,0.3744
+Original,Ambivalen,7,of my,0.3742
+Original,Ambivalen,8,be the,0.3704
+Original,Ambivalen,9,anguish,0.3433
+Original,Ambivalen,10,at,0.339
+Original,Ambivalen,11,hate,0.3386
+Original,Ambivalen,12,she had,0.3375
+Original,Ambivalen,13,injustice,0.3336
+Original,Ambivalen,14,she,0.3309
+Original,Ambivalen,15,that am,0.3305
+Original,Ancaman,1,enemy,0.6419
+Original,Ancaman,2,monster,0.5538
+Original,Ancaman,3,my enemy,0.4839
+Original,Ancaman,4,the monster,0.4402
+Original,Ancaman,5,devil,0.4286
+Original,Ancaman,6,to me,0.4177
+Original,Ancaman,7,do,0.4081
+Original,Ancaman,8,existence,0.3338
+Original,Ancaman,9,you,0.3293
+Original,Ancaman,10,let,0.3025
+Original,Ancaman,11,destroy,0.302
+Original,Ancaman,12,do not,0.3
+Original,Ancaman,13,me,0.297
+Original,Ancaman,14,and do,0.292
+Original,Ancaman,15,fiend,0.288
+Original,Korban,1,gentle,0.5057
+Original,Korban,2,the old,0.4247
+Original,Korban,3,old,0.4122
+Original,Korban,4,old man,0.3855
+Original,Korban,5,from the,0.3575
+Original,Korban,6,amiable,0.3398
+Original,Korban,7,virtue,0.326
+Original,Korban,8,very,0.3257
+Original,Korban,9,man,0.323
+Original,Korban,10,little,0.3022
+Original,Korban,11,cottagers,0.3008
+Original,Korban,12,hunger,0.2997
+Original,Korban,13,half,0.2937
+Original,Korban,14,the cottage,0.2898
+Original,Korban,15,thirst,0.2891
+Masked,Ambivalen,1,misery,0.4359
+Masked,Ambivalen,2,from,0.4115
+Masked,Ambivalen,3,alone,0.4069
+Masked,Ambivalen,4,behold,0.4019
+Masked,Ambivalen,5,still,0.4
+Masked,Ambivalen,6,of my,0.3731
+Masked,Ambivalen,7,love,0.3712
+Masked,Ambivalen,8,be the,0.3689
+Masked,Ambivalen,9,anguish,0.3418
+Masked,Ambivalen,10,hate,0.3403
+Masked,Ambivalen,11,she had,0.3391
+Masked,Ambivalen,12,at,0.3378
+Masked,Ambivalen,13,she,0.3358
+Masked,Ambivalen,14,injustice,0.3337
+Masked,Ambivalen,15,that am,0.3296
+Masked,Ancaman,1,creature,0.548
+Masked,Ancaman,2,my creature,0.5462
+Masked,Ancaman,3,the creature,0.5155
+Masked,Ancaman,4,to me,0.4232
+Masked,Ancaman,5,do,0.4098
+Masked,Ancaman,6,you,0.3315
+Masked,Ancaman,7,existence,0.3281
+Masked,Ancaman,8,do not,0.3085
+Masked,Ancaman,9,destroy,0.3003
+Masked,Ancaman,10,me,0.2994
+Masked,Ancaman,11,let,0.2983
+Masked,Ancaman,12,and do,0.2965
+Masked,Ancaman,13,go,0.284
+Masked,Ancaman,14,my father,0.283
+Masked,Ancaman,15,frightful,0.275
+Masked,Korban,1,gentle,0.5089
+Masked,Korban,2,the old,0.4257
+Masked,Korban,3,old,0.4133
+Masked,Korban,4,old man,0.3865
+Masked,Korban,5,from the,0.3588
+Masked,Korban,6,amiable,0.3428
+Masked,Korban,7,virtue,0.3292
+Masked,Korban,8,man,0.3246
+Masked,Korban,9,very,0.3244
+Masked,Korban,10,little,0.3065
+Masked,Korban,11,hunger,0.2997
+Masked,Korban,12,cottagers,0.2983
+Masked,Korban,13,half,0.297
+Masked,Korban,14,affection,0.2933
+Masked,Korban,15,thirst,0.2917
